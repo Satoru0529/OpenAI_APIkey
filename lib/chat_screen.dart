@@ -19,7 +19,7 @@ class _ChatScreenState extends State<ChatScreen> {
     final apiUrl = 'https://api.openai.com/v1/engines/davinci/completions';
     final headers = {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer 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',
+      'Authorization': 'Bearer sk',
     };
     final body = {
       'prompt': '$question\nA:',
